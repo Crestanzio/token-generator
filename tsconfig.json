@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "module": "Node16",
+      // "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outDir": "dist"
+    },
+    "include": ["src/**/*.ts", "tyoescript_tokinzer.ts"],
+  }
