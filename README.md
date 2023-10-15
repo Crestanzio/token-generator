@@ -1,10 +1,9 @@
 # Token genarator
-&nbsp;
 
  This a smart and lightweight library written in typescript, to simplify the way you write syntax tokens for a new programming language.
-
-# How to use this library
+ 
 &nbsp;
+# How to use this library
 
  First of all the `lexer()` function accept to parameters, `source` and `tokens`.
 
@@ -29,8 +28,8 @@
 ```
   This way library can understand that if the next token is the same as previous then has to be a type `"SINGLE_LINE_COMMENT"` other way the token is type `"DIV"`.
 
+&nbsp;
  # Example of usage
- &nbsp;
  
  ```typescript
  const source = fs.readFileSync("style.lcss", "utf8");
