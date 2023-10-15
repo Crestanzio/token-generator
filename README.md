@@ -43,11 +43,11 @@ const tokens = [
 	  { type: "IDENTIFIER",              value: /[a-z]/i,              },
 
 	// Arithmetic operators
-	    { type: "PLUS",                    value: "+",         length: 1 },
-	    { type: "DIV",                     value: "/",         length: 1 },
-	    { type: "MINUS",                   value: "-",         length: 1 },
-	    { type: "MULT",                    value: "*",         length: 1 },
-	    { type: "MODULUS",                 value: "%",         length: 1 },
+	  { type: "PLUS",                    value: "+",         length: 1 },
+	  { type: "DIV",                     value: "/",         length: 1 },
+	  { type: "MINUS",                   value: "-",         length: 1 },
+	  { type: "MULT",                    value: "*",         length: 1 },
+	  { type: "MODULUS",                 value: "%",         length: 1 },
 ]
 
 lexer(source, tokens);
