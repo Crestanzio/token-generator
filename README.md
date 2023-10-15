@@ -56,5 +56,7 @@ const tokens = [
 lexer(source, tokens);
 ```
 
-$${\color{red}Red}$$
-WARNING: This library is not complete and is not maintained, it's just a personal experiment to evolve my programming knowledge.
+```diff
+! WARNING:
+```
+ This library is not complete and is not maintained, it's just a personal experiment to evolve my programming knowledge.
