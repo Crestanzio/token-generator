@@ -55,4 +55,6 @@ const tokens = [
 
 lexer(source, tokens);
 ```
+
+<h1 style="color:purple;">Hello World</h1>
 WARNING: This library is not complete and is not maintained, it's just a personal experiment to evolve my programming knowledge.
