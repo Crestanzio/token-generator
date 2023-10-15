@@ -130,9 +130,10 @@ function lexer(input: string, ArrayOfTokens: TokenObject[]) {
     }
   }
   tokens.push({ type: "EOF" });
-  return console.log(tokens);
+  // return console.log(tokens);
+  return tokens;
 }
 
-console.time("Test");
+// console.time("Test");
 lexer(source, Tokens);
-console.timeEnd("Test");
+// console.timeEnd("Test");
