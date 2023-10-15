@@ -27,7 +27,7 @@
 ```
   This way library can understand that if the next token is the same as previous then has to be a type `"SINGLE_LINE_COMMENT"` other way the token is type `"DIV"`.
 
- # Example of usage
+ # Example of usage \
  
  <br>
  
