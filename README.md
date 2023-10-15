@@ -56,7 +56,5 @@ const tokens = [
 lexer(source, tokens);
 ```
 
-```diff
-! WARNING:
-```
- This library is not complete and is not maintained, it's just a personal experiment to evolve my programming knowledge.
+> [!WARNING]
+> This library is not complete and is not maintained, it's just a personal experiment to evolve my programming knowledge.
