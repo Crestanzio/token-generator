@@ -33,6 +33,7 @@
  const source = fs.readFileSync("style.lcss", "utf8");
 
 const tokens = [
+
 	// Keywords
 	  { type: "KEYWORD",                 value: "function",            },
 	  { type: "KEYWORD",                 value: "if",                  },
